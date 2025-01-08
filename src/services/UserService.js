@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const STOCK_REST_API_URL='http://13.60.211.16:9092/api/stocks';
+const STOCK_REST_API_URL='http://localhost:9092/api/stocks';
 
 class UserService{
     getstock(){
